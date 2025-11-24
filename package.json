@@ -1,0 +1,35 @@
+{
+  "name": "taskey_task_tracker_api",
+  "version": "1.0.0",
+  "description": "TASKey is a Node.js + Express + MongoDB stack API to keep tasks on track.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lillieharlow/TASKey_task_tracker_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lillieharlow/TASKey_task_tracker_API/issues"
+  },
+  "homepage": "https://github.com/lillieharlow/TASKey_task_tracker_API#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2"
+  }
+}
